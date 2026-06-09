@@ -1,6 +1,6 @@
 cask "simplshot" do
-  version "1.6.3"
-  sha256 "c19d76324edde5749f0d9b6f5cbabe6d813db59de3ead70b253813b2b4e2c651"
+  version "1.6.6"
+  sha256 "c63051e7a12c60f9ed34a72b55febe41bff3e0c53b25b6e624afd851da42494c"
 
   url "https://atle.co/simplshot/SimplShot-#{version}.zip",
       verified: "atle.co/simplshot/"
@@ -9,7 +9,7 @@ cask "simplshot" do
   homepage "https://www.simplshot.com/"
 
   auto_updates true
-  depends_on macos: ">= :tahoe"
+  depends_on macos: :tahoe
 
   app "SimplShot.app"
 end
