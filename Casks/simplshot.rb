@@ -1,6 +1,6 @@
 cask "simplshot" do
-  version "1.6.6"
-  sha256 "c63051e7a12c60f9ed34a72b55febe41bff3e0c53b25b6e624afd851da42494c"
+  version "1.6.7"
+  sha256 "adf768707e496c73a8d5d41a5b525d55839346eec689e930a0917341bb079c78"
 
   url "https://atle.co/simplshot/SimplShot-#{version}.zip",
       verified: "atle.co/simplshot/"
